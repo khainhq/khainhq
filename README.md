@@ -41,7 +41,7 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
   </a>
   <a href="https://www.odoo.com/" target="_blank" rel="noreferrer">
-    <span style="display:inline-block; font-size:18px; font-weight:700; color:#714B67; padding:8px 4px;">Odoo</span>
+    <img src="https://cdn.simpleicons.org/odoo/714B67" alt="odoo" width="40" height="40"/>
   </a>
   <a href="https://www.sap.com/" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/sap/sap-icon.svg" alt="sap" width="40" height="40"/>
