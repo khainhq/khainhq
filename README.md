@@ -1,5 +1,5 @@
 <h1 align="center">Nguyen Ho Quang Khai</h1>
-<h3 align="center">INFORMATION TECHNOLOGY STUDENT - ERP ENGINEER - AI ENGINEER</h3>
+<h3 align="center">I'm a 3nd year student majoring in INFORMATION TECHNOLOGY STUDENT</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/INFORMATION%20TECHNOLOGY-brightgreen?style=for-the-badge" alt="Information Technology Badge"/>
@@ -7,9 +7,6 @@
   <img src="https://img.shields.io/badge/AI%20ENGINEER-red?style=for-the-badge" alt="AI Engineer Badge"/>
   <img src="https://img.shields.io/badge/SOFTWARE%20ENGINEERING-black?style=for-the-badge" alt="Software Engineering Badge"/>
 </p>
-
-- Author: **Nguyen Ho Quang Khai**
-- Ask me about **Information Technology, ERP systems, AI engineering, backend development, databases, and automation**
 
 <table align="center">
   <tr>
