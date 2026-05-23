@@ -70,14 +70,14 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NHQKhai&theme=dracula" alt="Repos per language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=khainhq&theme=dracula" alt="Repos per language" />
   &nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NHQKhai&theme=dracula" alt="Most commit language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=khainhq&theme=dracula" alt="Most commit language" />
 </p>
 
 <h3 align="left">GitHub Trophies</h3>
 <p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=NHQKhai&theme=dracula" alt="NHQKhai trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=khainhq&theme=dracula" alt="khainhq trophies" />
   </a>
 </p>
