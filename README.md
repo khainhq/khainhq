@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/SOFTWARE%20ENGINEERING-black?style=for-the-badge" alt="Software Engineering Badge"/>
 </p>
 
-- Author: **Nguyễn Hồ Quang Khải**
+- Author: **Nguyen Ho Quang Khai**
 - Ask me about **Information Technology, ERP systems, AI engineering, backend development, databases, and automation**
 
 <table align="center">
