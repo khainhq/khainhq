@@ -1,4 +1,4 @@
-<h1 align="center">Nguyễn Hồ Quang Khải</h1>
+<h1 align="center">Nguyen Ho Quang Khai</h1>
 <h3 align="center">INFORMATION TECHNOLOGY STUDENT - ERP ENGINEER - AI ENGINEER</h3>
 
 <p align="center">
