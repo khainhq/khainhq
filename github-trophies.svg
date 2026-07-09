@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="170" viewBox="0 0 900 170" role="img" aria-labelledby="title desc">
+  <title id="title">khainhq GitHub trophies</title>
+  <desc id="desc">Static GitHub trophy cards for khainhq.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1f2335"/>
+      <stop offset="100%" stop-color="#282a36"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffd866"/>
+      <stop offset="100%" stop-color="#ff9f43"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="900" height="170" rx="10" fill="url(#bg)"/>
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(50 24)" filter="url(#shadow)">
+      <rect width="120" height="122" rx="8" fill="#343746" stroke="#44475a"/>
+      <path d="M43 26h34v11h18c0 22-11 35-28 39v10h16v12H37V86h16V76C36 72 25 59 25 37h18V26Zm34 11v18c6-3 10-9 11-18H77Zm-43 0c1 9 5 15 11 18V37H34Z" fill="url(#gold)"/>
+      <text x="60" y="112" fill="#f8f8f2" font-size="15" font-weight="700">Profile</text>
+    </g>
+    <g transform="translate(190 24)" filter="url(#shadow)">
+      <rect width="120" height="122" rx="8" fill="#343746" stroke="#44475a"/>
+      <path d="M60 25l9 20 22 2-17 15 5 22-19-12-19 12 5-22-17-15 22-2 9-20Z" fill="#8be9fd"/>
+      <text x="60" y="112" fill="#f8f8f2" font-size="15" font-weight="700">Commits</text>
+    </g>
+    <g transform="translate(330 24)" filter="url(#shadow)">
+      <rect width="120" height="122" rx="8" fill="#343746" stroke="#44475a"/>
+      <path d="M35 33h50a8 8 0 0 1 8 8v40a8 8 0 0 1-8 8H35a8 8 0 0 1-8-8V41a8 8 0 0 1 8-8Zm7 15v10h36V48H42Zm0 21v6h25v-6H42Z" fill="#50fa7b"/>
+      <text x="60" y="112" fill="#f8f8f2" font-size="15" font-weight="700">Repositories</text>
+    </g>
+    <g transform="translate(470 24)" filter="url(#shadow)">
+      <rect width="120" height="122" rx="8" fill="#343746" stroke="#44475a"/>
+      <path d="M60 26c13 0 24 10 24 23 0 21-24 35-24 35S36 70 36 49c0-13 11-23 24-23Zm0 12a11 11 0 1 0 0 22 11 11 0 0 0 0-22Z" fill="#ff79c6"/>
+      <text x="60" y="112" fill="#f8f8f2" font-size="15" font-weight="700">Followers</text>
+    </g>
+    <g transform="translate(610 24)" filter="url(#shadow)">
+      <rect width="120" height="122" rx="8" fill="#343746" stroke="#44475a"/>
+      <path d="M38 39a11 11 0 1 1 15 10v22a20 20 0 0 0 20 20h4a11 11 0 1 1 0 10h-4a30 30 0 0 1-30-30V49a11 11 0 0 1-5-10Z" fill="#bd93f9"/>
+      <text x="60" y="112" fill="#f8f8f2" font-size="15" font-weight="700">Pull Requests</text>
+    </g>
+    <g transform="translate(750 24)" filter="url(#shadow)">
+      <rect width="120" height="122" rx="8" fill="#343746" stroke="#44475a"/>
+      <path d="M60 24a35 35 0 1 1 0 70 35 35 0 0 1 0-70Zm-5 17 2 29h6l2-29H55Zm5 42a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z" fill="#ff5555"/>
+      <text x="60" y="112" fill="#f8f8f2" font-size="15" font-weight="700">Issues</text>
+    </g>
+  </g>
+</svg>

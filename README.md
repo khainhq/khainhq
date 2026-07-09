@@ -1,5 +1,6 @@
 <h1 align="center">Nguyen Ho Quang Khai</h1>
-<h3 align="center">I'm a 3nd year student majoring in INFORMATION TECHNOLOGY STUDENT</h3>
+<h3 align="center">I am a third-year undergraduate student majoring in Information Technology at UTH.</h3>
+<h3 align="center">私はUTHで情報技術を専攻している大学3年生です。</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/INFORMATION%20TECHNOLOGY-brightgreen?style=for-the-badge" alt="Information Technology Badge"/>
@@ -76,8 +77,6 @@
 </p>
 
 <h3 align="left">GitHub Trophies</h3>
-<p align="left">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=khainhq&theme=dracula" alt="khainhq trophies" />
-  </a>
+<p align="center">
+  <img src="./github-trophies.svg" alt="khainhq GitHub trophies" />
 </p>
