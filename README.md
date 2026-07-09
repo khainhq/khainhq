@@ -76,4 +76,8 @@
 </p>
 
 <h3 align="left">GitHub Trophies</h3>
-[![trophy](https://trophy.ryglcloud.net/?username=khainhq&theme=dracula&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://trophy.ryglcloud.net/?username=khainhq&amp;theme=dracula&amp;no-frame=true&amp;row=1&amp;column=6" alt="GitHub trophies" />
+  </a>
+</p>
