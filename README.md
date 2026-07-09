@@ -77,6 +77,4 @@
 </p>
 
 <h3 align="left">GitHub Trophies</h3>
-<p align="center">
-  <img src="./github-trophies.svg" alt="khainhq GitHub trophies" />
-</p>
+[![trophy](https://github-profile-trophy.vercel.app/?username=khainhq&theme=dracula&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
