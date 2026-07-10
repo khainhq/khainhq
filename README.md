@@ -70,9 +70,9 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=khainhq&theme=dracula" alt="Repos per language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=khainhq&amp;theme=dracula&amp;v=20260710" alt="Repos per language" />
   &nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=khainhq&theme=dracula" alt="Most commit language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=khainhq&amp;theme=dracula&amp;v=20260710" alt="Most commit language" />
 </p>
 
 <h3 align="left">GitHub Trophies</h3>
