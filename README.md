@@ -11,7 +11,7 @@
 <table align="center">
   <tr>
     <td align="center" style="padding-right: 20px;">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=khainhq&theme=dracula" alt="khainhq profile summary" />
+      <img src="./profile-summary-card.svg" alt="khainhq profile summary" />
     </td>
     <td align="center" style="padding-left: 20px;">
       <img src="qwen-vietnam.jpg" alt="Nguyen Ho Quang Khai" width="300" />
