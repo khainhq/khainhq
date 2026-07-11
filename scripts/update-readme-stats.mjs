@@ -166,7 +166,7 @@ const languages = [...languageCounts.entries()]
   .map(([name, count]) => ({ name, count }))
   .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 
-await writeFile("github-stats-card.svg", statsCard({
+await writeFile("github-stats-card-20260711.svg", statsCard({
   stars,
   contributions: data.user.contributionsCollection.contributionCalendar.totalContributions,
   pullRequests: data.user.pullRequests.totalCount,
@@ -175,4 +175,4 @@ await writeFile("github-stats-card.svg", statsCard({
   followers: user.followers,
 }), "utf8");
 
-await writeFile("most-used-languages-card.svg", languageCard(languages), "utf8");
+await writeFile("most-used-languages-card-20260711.svg", languageCard(languages), "utf8");

@@ -13,9 +13,9 @@
     <rect x="393" y="56" width="3" height="8"  fill="#f1fa8c"/>
     <rect x="396" y="56" width="1" height="8"  fill="#384d54"/>
     <circle cx="30" cy="87" r="5" fill="#f1e05a"/>
-    <text x="44" y="91" fill="#f8f8f2" font-size="12">JavaScript 45.75%</text>
+    <text x="44" y="91" fill="#f8f8f2" font-size="12">JavaScript 45.76%</text>
     <circle cx="228" cy="87" r="5" fill="#e34c26"/>
-    <text x="242" y="91" fill="#f8f8f2" font-size="12">HTML 20.20%</text>
+    <text x="242" y="91" fill="#f8f8f2" font-size="12">HTML 20.19%</text>
     <circle cx="30" cy="112" r="5" fill="#663399"/>
     <text x="44" y="116" fill="#f8f8f2" font-size="12">CSS 16.00%</text>
     <circle cx="228" cy="112" r="5" fill="#178600"/>

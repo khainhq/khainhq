@@ -92,10 +92,10 @@
 <table align="center">
   <tr>
     <td align="center">
-      <img src="./github-stats-card.svg" alt="Nguyen Ho Quang Khai GitHub Stats" width="420" />
+      <img src="./github-stats-card-20260711.svg" alt="Nguyen Ho Quang Khai GitHub Stats" width="420" />
     </td>
     <td align="center">
-      <img src="./most-used-languages-card.svg" alt="Most Used Languages" width="420" />
+      <img src="./most-used-languages-card-20260711.svg" alt="Most Used Languages" width="420" />
     </td>
   </tr>
 </table>
