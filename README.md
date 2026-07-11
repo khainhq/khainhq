@@ -26,11 +26,11 @@
   <tr>
     <td width="68%" valign="top">
       <ul>
-        <li>I am a third-year Information Technology undergraduate student at University of Transport Ho Chi Minh City (UTH).</li>
-        <li>I am interested in ERP systems, AI engineering, and practical software engineering.</li>
-        <li>I work with Python, Java, C#, JavaScript, TypeScript, databases, and modern web technologies.</li>
-        <li>I enjoy building useful applications, automation tools, and AI-powered systems that solve real problems.</li>
-        <li>I am continuously learning cloud, Linux, React, backend development, and enterprise software workflows.</li>
+        <li>🎓 Third-year IT student at UTH.</li>
+        <li>💼 Interested in ERP, AI, and software engineering.</li>
+        <li>🛠️ Working with Python, Java, C#, JavaScript, and databases.</li>
+        <li>🚀 Building practical apps, automation tools, and AI systems.</li>
+        <li>🌱 Learning cloud, Linux, React, and backend development.</li>
       </ul>
     </td>
     <td width="32%" align="center" valign="middle">
