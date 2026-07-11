@@ -1,8 +1,45 @@
-<h1 align="center">Hi <img src="./wave-hand.svg" alt="waving hand" width="36" />, I'm Nguyen Ho Quang Khai</h1>
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+README = ROOT / "README.md"
+
+USERNAME = "khainhq"
+DISPLAY_NAME = "Nguyen Ho Quang Khai"
+
+
+def github_stats_url() -> str:
+    return (
+        "https://github-profile-summary-cards.vercel.app/api/cards/stats"
+        f"?username={USERNAME}"
+        "&amp;theme=dracula"
+    )
+
+
+def top_languages_url() -> str:
+    return (
+        "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language"
+        f"?username={USERNAME}"
+        "&amp;theme=dracula"
+    )
+
+
+def profile_views_url() -> str:
+    return (
+        "https://komarev.com/ghpvc/"
+        f"?username={USERNAME}"
+        "&amp;label=Profile%20views"
+        "&amp;color=blue"
+        "&amp;style=for-the-badge"
+    )
+
+
+def render_readme() -> str:
+    return f"""<h1 align="center">Hi <img src="./wave-hand.svg" alt="waving hand" width="36" />, I'm {DISPLAY_NAME}</h1>
 <h3 align="center">I am a third-year undergraduate student majoring in Information Technology at UTH.</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=khainhq&amp;label=Profile%20views&amp;color=blue&amp;style=for-the-badge" alt="Profile views" />
+  <img src="{profile_views_url()}" alt="Profile views" />
   <a href="https://www.linkedin.com/in/nguy%E1%BB%85n-h%E1%BB%93-quang-kh%E1%BA%A3i/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
   </a>
@@ -49,7 +86,7 @@
       </table>
     </td>
     <td width="36%" align="center" valign="middle">
-      <img src="./qwen-vietnam.jpg" alt="Nguyen Ho Quang Khai" width="260" />
+      <img src="./qwen-vietnam.jpg" alt="{DISPLAY_NAME}" width="260" />
     </td>
   </tr>
 </table>
@@ -118,10 +155,19 @@
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=khainhq&amp;theme=dracula" alt="Nguyen Ho Quang Khai GitHub Stats" width="420" />
+      <img src="{github_stats_url()}" alt="{DISPLAY_NAME} GitHub Stats" width="420" />
     </td>
     <td align="center">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=khainhq&amp;theme=dracula" alt="Most Used Languages" width="420" />
+      <img src="{top_languages_url()}" alt="Most Used Languages" width="420" />
     </td>
   </tr>
 </table>
+"""
+
+
+def main() -> None:
+    README.write_text(render_readme(), encoding="utf-8", newline="\n")
+
+
+if __name__ == "__main__":
+    main()
