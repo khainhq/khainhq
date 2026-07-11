@@ -22,10 +22,10 @@
 
 <h3 align="left">About me</h3>
 
-<table>
+<table width="100%" cellpadding="0" cellspacing="0">
   <tr>
-    <td width="66%" align="center" valign="middle">
-      <table align="center" width="88%">
+    <td width="64%" align="center" valign="middle">
+      <table align="center" width="90%" cellpadding="0" cellspacing="0">
         <tr>
           <td width="34" align="center">🎓</td>
           <td>Third-year IT student at UTH.</td>
@@ -48,7 +48,7 @@
         </tr>
       </table>
     </td>
-    <td width="34%" align="center" valign="middle">
+    <td width="36%" align="right" valign="middle">
       <img src="./qwen-vietnam.jpg" alt="Nguyen Ho Quang Khai" width="260" />
     </td>
   </tr>
