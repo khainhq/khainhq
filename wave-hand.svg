@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Waving hand</title>
+  <desc id="desc">Animated waving hand emoji.</desc>
+  <style>
+    .wave {
+      animation: wave 1.8s ease-in-out infinite;
+      transform-origin: 46px 50px;
+    }
+    @keyframes wave {
+      0%, 100% { transform: rotate(0deg); }
+      10%, 30%, 50% { transform: rotate(14deg); }
+      20%, 40% { transform: rotate(-10deg); }
+      60% { transform: rotate(6deg); }
+    }
+  </style>
+  <text class="wave" x="6" y="52" font-size="50">👋</text>
+</svg>

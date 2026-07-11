@@ -1,4 +1,4 @@
-<h1 align="center">Nguyen Ho Quang Khai</h1>
+<h1 align="center">Hi <img src="./wave-hand.svg" alt="waving hand" width="36" />, I'm Nguyen Ho Quang Khai</h1>
 <h3 align="center">I am a third-year undergraduate student majoring in Information Technology at UTH.</h3>
 
 <p align="center">
