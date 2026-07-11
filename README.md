@@ -24,17 +24,32 @@
 
 <table>
   <tr>
-    <td width="68%" valign="top">
-      <ul>
-        <li>🎓 Third-year IT student at UTH.</li>
-        <li>💼 Interested in ERP, AI, and software engineering.</li>
-        <li>🛠️ Working with Python, Java, C#, JavaScript, and databases.</li>
-        <li>🚀 Building practical apps, automation tools, and AI systems.</li>
-        <li>🌱 Learning cloud, Linux, React, and backend development.</li>
-      </ul>
+    <td width="64%" valign="middle">
+      <table>
+        <tr>
+          <td width="34" align="center">🎓</td>
+          <td>Third-year IT student at UTH.</td>
+        </tr>
+        <tr>
+          <td width="34" align="center">💼</td>
+          <td>Interested in ERP, AI, and software engineering.</td>
+        </tr>
+        <tr>
+          <td width="34" align="center">🛠️</td>
+          <td>Working with Python, Java, C#, JavaScript, and databases.</td>
+        </tr>
+        <tr>
+          <td width="34" align="center">🚀</td>
+          <td>Building practical apps, automation tools, and AI systems.</td>
+        </tr>
+        <tr>
+          <td width="34" align="center">🌱</td>
+          <td>Learning cloud, Linux, React, and backend development.</td>
+        </tr>
+      </table>
     </td>
-    <td width="32%" align="center" valign="middle">
-      <img src="./qwen-vietnam.jpg" alt="Nguyen Ho Quang Khai" width="230" />
+    <td width="36%" align="center" valign="middle">
+      <img src="./qwen-vietnam.jpg" alt="Nguyen Ho Quang Khai" width="250" />
     </td>
   </tr>
 </table>
