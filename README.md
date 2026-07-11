@@ -24,7 +24,7 @@
 
 <table>
   <tr>
-    <td width="64%" valign="middle">
+    <td width="66%" valign="middle">
       <table>
         <tr>
           <td width="34" align="center">🎓</td>
@@ -48,8 +48,8 @@
         </tr>
       </table>
     </td>
-    <td width="36%" align="center" valign="middle">
-      <img src="./qwen-vietnam.jpg" alt="Nguyen Ho Quang Khai" width="250" />
+    <td width="34%" align="right" valign="middle">
+      <img src="./qwen-vietnam.jpg" alt="Nguyen Ho Quang Khai" width="260" />
     </td>
   </tr>
 </table>
