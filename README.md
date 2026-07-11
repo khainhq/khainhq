@@ -22,11 +22,22 @@
 
 <h3 align="left">About me</h3>
 
-- I am a third-year Information Technology undergraduate student at University of Transport Ho Chi Minh City (UTH).
-- I am interested in ERP systems, AI engineering, and practical software engineering.
-- I work with Python, Java, C#, JavaScript, TypeScript, databases, and modern web technologies.
-- I enjoy building useful applications, automation tools, and AI-powered systems that solve real problems.
-- I am continuously learning cloud, Linux, React, backend development, and enterprise software workflows.
+<table>
+  <tr>
+    <td width="68%" valign="top">
+      <ul>
+        <li>I am a third-year Information Technology undergraduate student at University of Transport Ho Chi Minh City (UTH).</li>
+        <li>I am interested in ERP systems, AI engineering, and practical software engineering.</li>
+        <li>I work with Python, Java, C#, JavaScript, TypeScript, databases, and modern web technologies.</li>
+        <li>I enjoy building useful applications, automation tools, and AI-powered systems that solve real problems.</li>
+        <li>I am continuously learning cloud, Linux, React, backend development, and enterprise software workflows.</li>
+      </ul>
+    </td>
+    <td width="32%" align="center" valign="middle">
+      <img src="./qwen-vietnam.jpg" alt="Nguyen Ho Quang Khai" width="230" />
+    </td>
+  </tr>
+</table>
 
 <h3 align="left">Languages and Tools</h3>
 
