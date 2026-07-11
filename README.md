@@ -89,8 +89,13 @@
 
 <h3 align="left">GitHub Stats</h3>
 
-<p align="center">
-  <img src="./github-stats-card.svg?cache=20260711" alt="Nguyen Ho Quang Khai GitHub Stats" width="420" />
-  &nbsp;
-  <img src="./most-used-languages-card.svg?cache=20260711" alt="Most Used Languages" width="420" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="./github-stats-card.svg" alt="Nguyen Ho Quang Khai GitHub Stats" width="420" />
+    </td>
+    <td align="center">
+      <img src="./most-used-languages-card.svg" alt="Most Used Languages" width="420" />
+    </td>
+  </tr>
+</table>
