@@ -24,8 +24,8 @@
 
 <table>
   <tr>
-    <td width="66%" valign="middle">
-      <table>
+    <td width="66%" align="center" valign="middle">
+      <table align="center" width="88%">
         <tr>
           <td width="34" align="center">🎓</td>
           <td>Third-year IT student at UTH.</td>
@@ -48,7 +48,7 @@
         </tr>
       </table>
     </td>
-    <td width="34%" align="right" valign="middle">
+    <td width="34%" align="center" valign="middle">
       <img src="./qwen-vietnam.jpg" alt="Nguyen Ho Quang Khai" width="260" />
     </td>
   </tr>
