@@ -118,10 +118,10 @@
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=khainhq&amp;theme=dracula" alt="Nguyen Ho Quang Khai GitHub Stats" width="420" />
+      <img src="./assets/github-stats.svg" alt="Nguyen Ho Quang Khai GitHub Stats" width="420" />
     </td>
     <td align="center">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=khainhq&amp;theme=dracula" alt="Most Used Languages" width="420" />
+      <img src="./assets/top-languages.svg" alt="Most Used Languages" width="420" />
     </td>
   </tr>
 </table>

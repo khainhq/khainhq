@@ -9,19 +9,11 @@ DISPLAY_NAME = "Nguyen Ho Quang Khai"
 
 
 def github_stats_url() -> str:
-    return (
-        "https://github-profile-summary-cards.vercel.app/api/cards/stats"
-        f"?username={USERNAME}"
-        "&amp;theme=dracula"
-    )
+    return "./assets/github-stats.svg"
 
 
 def top_languages_url() -> str:
-    return (
-        "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language"
-        f"?username={USERNAME}"
-        "&amp;theme=dracula"
-    )
+    return "./assets/top-languages.svg"
 
 
 def profile_views_url() -> str:
