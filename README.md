@@ -2,24 +2,33 @@
 <h3 align="center">I am a third-year undergraduate student majoring in Information Technology at UTH.</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/INFORMATION%20TECHNOLOGY-brightgreen?style=for-the-badge" alt="Information Technology Badge"/>
-  <img src="https://img.shields.io/badge/ERP%20ENGINEER-blue?style=for-the-badge" alt="ERP Engineer Badge"/>
-  <img src="https://img.shields.io/badge/AI%20ENGINEER-red?style=for-the-badge" alt="AI Engineer Badge"/>
-  <img src="https://img.shields.io/badge/SOFTWARE%20ENGINEERING-black?style=for-the-badge" alt="Software Engineering Badge"/>
+  <img src="https://img.shields.io/badge/Profile%20views-1%2C096-blue?style=for-the-badge" alt="Profile views: 1,096" />
+  <a href="https://www.linkedin.com/in/nguy%E1%BB%85n-h%E1%BB%93-quang-kh%E1%BA%A3i/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://www.facebook.com/nhqkhai.vn">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&amp;logo=facebook&amp;logoColor=white" alt="Facebook" />
+  </a>
+  <a href="https://www.instagram.com/nhqkhai.py/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://www.youtube.com/@NHQ_Khai">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&amp;logo=youtube&amp;logoColor=white" alt="YouTube" />
+  </a>
+  <a href="mailto:khai.nguyenhoquang@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Gmail" />
+  </a>
 </p>
 
-<table align="center">
-  <tr>
-    <td align="center" style="padding-right: 20px;">
-      <img src="./profile-summary-card-20260711.svg?cache=431bda9" alt="khainhq profile summary" />
-    </td>
-    <td align="center" style="padding-left: 20px;">
-      <img src="qwen-vietnam.jpg" alt="Nguyen Ho Quang Khai" width="300" />
-    </td>
-  </tr>
-</table>
+<h3 align="left">About me</h3>
 
-<h3 align="left">Languages and Tools:</h3>
+- I am a third-year Information Technology undergraduate student at University of Transport Ho Chi Minh City (UTH).
+- I am interested in ERP systems, AI engineering, and practical software engineering.
+- I work with Python, Java, C#, JavaScript, TypeScript, databases, and modern web technologies.
+- I enjoy building useful applications, automation tools, and AI-powered systems that solve real problems.
+- I am continuously learning cloud, Linux, React, backend development, and enterprise software workflows.
+
+<h3 align="left">Languages and Tools</h3>
 
 <p align="center">
   <a href="https://www.python.org" target="_blank" rel="noreferrer">
@@ -36,6 +45,15 @@
   </a>
   <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
+  </a>
+  <a href="https://react.dev/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="40" height="40"/>
+  </a>
+  <a href="https://aws.amazon.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/>
+  </a>
+  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
   </a>
   <a href="https://www.odoo.com/" target="_blank" rel="noreferrer">
     <img src="https://cdn.simpleicons.org/odoo/714B67" alt="odoo" width="40" height="40"/>
@@ -69,15 +87,10 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=khainhq&amp;theme=dracula&amp;v=20260710" alt="Repos per language" />
-  &nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=khainhq&amp;theme=dracula&amp;v=20260710" alt="Most commit language" />
-</p>
+<h3 align="left">GitHub Stats</h3>
 
-<h3 align="left">GitHub Trophies</h3>
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://trophy.ryglcloud.net/?username=khainhq&amp;theme=dracula&amp;no-frame=true&amp;row=1&amp;column=6" alt="GitHub trophies" />
-  </a>
+  <img src="./github-stats-card.svg?cache=20260711" alt="Nguyen Ho Quang Khai GitHub Stats" width="420" />
+  &nbsp;
+  <img src="./most-used-languages-card.svg?cache=20260711" alt="Most Used Languages" width="420" />
 </p>
