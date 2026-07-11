@@ -2,7 +2,7 @@
 <h3 align="center">I am a third-year undergraduate student majoring in Information Technology at UTH.</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=khainhq&amp;label=Profile%20views&amp;color=blue&amp;style=for-the-badge" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=khainhq&amp;label=Profile%20views&amp;base=1096&amp;color=blue&amp;style=for-the-badge" alt="Profile views" />
   <a href="https://www.linkedin.com/in/nguy%E1%BB%85n-h%E1%BB%93-quang-kh%E1%BA%A3i/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
   </a>

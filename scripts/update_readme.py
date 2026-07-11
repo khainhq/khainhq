@@ -29,6 +29,7 @@ def profile_views_url() -> str:
         "https://komarev.com/ghpvc/"
         f"?username={USERNAME}"
         "&amp;label=Profile%20views"
+        "&amp;base=1096"
         "&amp;color=blue"
         "&amp;style=for-the-badge"
     )
