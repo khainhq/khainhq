@@ -92,13 +92,22 @@ function languageCard(languages) {
     Java: "#b07219",
     "C#": "#178600",
     Shell: "#89e051",
+    Dockerfile: "#384d54",
+    Vue: "#41b883",
+    SCSS: "#c6538c",
+    "Jupyter Notebook": "#DA5B0B",
   };
   const fallback = ["#ff79c6", "#50fa7b", "#8be9fd", "#ffb86c", "#bd93f9", "#ff5555", "#f1fa8c", "#6272a4"];
   const total = languages.reduce((sum, lang) => sum + lang.count, 0);
   const top = languages.slice(0, 8);
   let x = 24;
+  const rawWidths = top.map((lang) => total ? Math.round((lang.count / total) * 372) : 0);
+  const widthTotal = rawWidths.reduce((sum, width) => sum + width, 0);
+  if (rawWidths.length && widthTotal !== 372) {
+    rawWidths[rawWidths.length - 1] += 372 - widthTotal;
+  }
   const segments = top.map((lang, index) => {
-    const width = index === top.length - 1 ? 372 - (x - 24) : Math.max(8, Math.round((lang.count / total) * 372));
+    const width = Math.max(1, rawWidths[index]);
     const segment = `<rect x="${x}" y="56" width="${width}" height="8" ${index === 0 ? 'rx="4"' : ""} fill="${colors[lang.name] || fallback[index % fallback.length]}"/>`;
     x += width;
     return segment;
@@ -147,19 +156,15 @@ const data = await graphql(`
 const stars = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
 const languageCounts = new Map();
 for (const repo of repos) {
-  if (!repo.language) continue;
-  languageCounts.set(repo.language, (languageCounts.get(repo.language) || 0) + 1);
+  const repoLanguages = await github(`/repos/${username}/${repo.name}/languages`);
+  for (const [language, bytes] of Object.entries(repoLanguages)) {
+    languageCounts.set(language, (languageCounts.get(language) || 0) + bytes);
+  }
 }
 
 const languages = [...languageCounts.entries()]
   .map(([name, count]) => ({ name, count }))
   .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
-
-while (languages.length < 8) {
-  const fillers = ["TypeScript", "Java", "C#", "Shell", "SQL", "Dockerfile", "Jupyter Notebook", "Vue"];
-  const next = fillers.find((name) => !languages.some((lang) => lang.name === name));
-  languages.push({ name: next || `Other ${languages.length + 1}`, count: 0 });
-}
 
 await writeFile("github-stats-card.svg", statsCard({
   stars,
