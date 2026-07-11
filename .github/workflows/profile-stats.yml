@@ -1,0 +1,48 @@
+name: Profile stats
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - README.md
+      - assets/github-stats.svg
+      - assets/top-languages.svg
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate profile files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/generate_stats.py
+          python scripts/update_readme.py
+
+      - name: Commit updated stats
+        run: |
+          git config user.name "Nguyen Ho Quang Khai"
+          git config user.email "khai.nguyenhoquang@gmail.com"
+          git add README.md assets/github-stats.svg assets/top-languages.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Update realtime profile stats"
+          git push
